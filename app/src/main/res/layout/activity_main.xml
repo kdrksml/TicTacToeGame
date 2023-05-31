@@ -19,7 +19,7 @@
     android:background="@drawable/bg"    >
 
     <TextView
-        android:background="@drawable/textview_bg"
+
         android:id="@+id/texttitle"
 
         android:layout_width="wrap_content"
@@ -60,22 +60,21 @@
             android:id="@+id/text_player1"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="Player-1 Score"
+            android:text="Player-1 "
             android:textAlignment="center"
             android:textColor="@color/purple_700"
             android:textSize="26sp"
-            android:textStyle="bold"
-            android:background="@drawable/textview_bg" />
+            android:textStyle="bold" />
 
         <TextView
-            android:background="@drawable/textview_bg"
+
             android:id="@+id/text_player2"
 
             android:layout_width="200dp"
 
             android:layout_height="wrap_content"
 
-            android:text="Player-2 Score"
+            android:text="Player-2 "
 
             android:textSize="26dp"
 
@@ -170,9 +169,9 @@
 
                 android:id="@+id/btn0"
 
-                android:layout_width="90dp"
+                android:layout_width="80dp"
 
-                android:layout_height="90dp"
+                android:layout_height="80dp"
                 android:backgroundTint="@color/buttons"
                 android:textSize="26sp"
                 android:layout_marginHorizontal="5dp"
@@ -182,9 +181,9 @@
                 android:backgroundTint="@color/buttons"
                 android:id="@+id/btn1"
 
-                android:layout_width="90dp"
+                android:layout_width="80dp"
 
-                android:layout_height="90dp"
+                android:layout_height="80dp"
 
                 android:textSize="26dp"
 
@@ -196,9 +195,9 @@
                 android:backgroundTint="@color/buttons"
                 android:id="@+id/btn2"
 
-                android:layout_width="90dp"
+                android:layout_width="80dp"
 
-                android:layout_height="90dp"
+                android:layout_height="80dp"
 
                 android:textSize="26dp"
 
@@ -224,9 +223,9 @@
                 android:backgroundTint="@color/buttons"
                 android:id="@+id/btn3"
 
-                android:layout_width="90dp"
+                android:layout_width="80dp"
 
-                android:layout_height="90dp"
+                android:layout_height="80dp"
 
                 android:textSize="26dp"
 
@@ -238,9 +237,9 @@
                 android:backgroundTint="@color/buttons"
                 android:id="@+id/btn4"
 
-                android:layout_width="90dp"
+                android:layout_width="80dp"
 
-                android:layout_height="90dp"
+                android:layout_height="80dp"
 
                 android:textSize="26dp"
 
@@ -252,9 +251,9 @@
                 android:backgroundTint="@color/buttons"
                 android:id="@+id/btn5"
 
-                android:layout_width="90dp"
+                android:layout_width="80dp"
 
-                android:layout_height="90dp"
+                android:layout_height="80dp"
 
                 android:textSize="26dp"
 
@@ -278,9 +277,9 @@
                 android:backgroundTint="@color/buttons"
                 android:id="@+id/btn6"
 
-                android:layout_width="90dp"
+                android:layout_width="80dp"
 
-                android:layout_height="90dp"
+                android:layout_height="80dp"
 
                 android:textSize="26dp"
 
@@ -292,9 +291,9 @@
                 android:backgroundTint="@color/buttons"
                 android:id="@+id/btn7"
 
-                android:layout_width="90dp"
+                android:layout_width="80dp"
 
-                android:layout_height="90dp"
+                android:layout_height="80dp"
 
                 android:textSize="26dp"
 
@@ -306,9 +305,9 @@
                 android:backgroundTint="@color/buttons"
                 android:id="@+id/btn8"
 
-                android:layout_width="90dp"
+                android:layout_width="80dp"
 
-                android:layout_height="90dp"
+                android:layout_height="80dp"
 
                 android:textSize="26dp"
 
@@ -323,7 +322,6 @@
     </LinearLayout>
 
     <TextView
-        android:background="@drawable/textview_bg"
         android:id="@+id/textStatus"
 
         android:layout_width="wrap_content"
@@ -332,7 +330,7 @@
 
         android:layout_below="@id/layout_linear"
 
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
 
         android:layout_centerHorizontal="true"
 
@@ -356,7 +354,7 @@
 
         android:layout_centerHorizontal="true"
 
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:text="Play Again"
 
         android:textSize="30dp"
